@@ -1,9 +1,11 @@
+//Exercício 1
 {
 let x = 10;
 
 console.log(x); //10
 }
 
+//Exercício 2
 {
 let a = 20;
 let b = 5;
@@ -23,11 +25,15 @@ console.log(a / b) //4
 //resto da divisão
 console.log(a % b); //0
 }
+
+//Exercício 3
 {
 let num = -15;
 
 console.log(-num); //15
 }
+
+//Exercício 4
 {
  let count = 5;
 
@@ -37,6 +43,8 @@ console.log(++count); //6
 //decrementa o número
 console.log(--count); //5   
 }
+
+//Exercício 5
 {
  let x = 10;
 
@@ -57,6 +65,8 @@ x %= 3;
 
 console.log(x); //0   
 }
+
+//Exercício 6
 {
   let p = true;
 let q = false;
@@ -75,6 +85,8 @@ console.log(p || q); //true
 console.log(!p); //false
 console.log(!q); //true  
 }
+
+//Exercício 7
 {
 console.log(0 || "Hello"); // Hello(Pois o zero é falso)
 
@@ -84,15 +96,21 @@ console.log(null ?? "Default Value"); // Default Value(Pois o ?? não volta valo
 
 console.log(undefined ?? 42); // 42(volta o 42 porque undefined é nulo, já 42 tem um valor)
 }
+
+//Exercício 8
 {
 let resultado = 10 + 5 * 2 > 20 && !false; //Ele da o valor de falso, pois a conta da 20, e 20 não é maior que vinte, dando false
 }
+
+//Exercício 9
 {
 console.log("5" - 2); //3(a string vira um número e é subtraido pelo 2)
 console.log("5" + 2); //52(a string vira um número, porém, ele é incrementado ao 2, virando 55)
 console.log(true + 1); //2(porque o valor de true é 1)
 console.log(false + 10); //10(porque o valor de false é 0)
 }
+
+//Exercício 10
 {
 let x = 5;
 let y = 10;
