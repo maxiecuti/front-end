@@ -96,5 +96,13 @@ console.log(false + 10); //10(porque o valor de false é 0)
 {
 let x = 5;
 let y = 10;
-let z = (x++ * --y) / 2 + (y % 3); //22,5(6 * 9) / 2 + (10 % 3) = (59) / 2 + (3,33) = 59/2 + 3,33 = 29,5
+let z = (x++ * --y) / 2 + (y % 3); /*Passo 1: Primeiro  o x++ continua sendo 5 pois quando o ++ vem depois ele não altera
+Passo 2: o --y se transforma em 9, pois o -- vem antes e diminui 1 do 10
+Passo 3: virando 5 * 45
+Passo 4: o y continua sendo 9, porque nós alteramos o seu valor
+Passo 5: o resto de 9 dividido por 3 é 0
+Passo 6: depois dividimos o 45 por 5, que vira 22,5
+Passo 7: por último somamos o 22,5 por 0, dando 22,5
+Conta: (5 * 9)/ 2 + (9 % 3) = (45) / 2 + (0) = 45/2 + 0 = 22,5 + 0 = 22,5
+*/
 }
