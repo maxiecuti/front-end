@@ -101,7 +101,7 @@ Passo 2: o --y se transforma em 9, pois o -- vem antes e diminui 1 do 10
 Passo 3: virando 5 * 45
 Passo 4: o y continua sendo 9, porque nós alteramos o seu valor
 Passo 5: o resto de 9 dividido por 3 é 0
-Passo 6: depois dividimos o 45 por 5, que vira 22,5
+Passo 6: depois dividimos o 45 por 2, que vira 22,5
 Passo 7: por último somamos o 22,5 por 0, dando 22,5
 Conta: (5 * 9)/ 2 + (9 % 3) = (45) / 2 + (0) = 45/2 + 0 = 22,5 + 0 = 22,5
 */
