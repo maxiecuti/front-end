@@ -214,7 +214,7 @@ function ex18(){
     let contador = 0;
 
     for(const elemento of arrays){
-    if (typeof elemento == "number"){
+    if (typeof elemento === "number"){
         contador++;
     }
 }
